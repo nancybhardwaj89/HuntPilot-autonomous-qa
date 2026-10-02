@@ -1,0 +1,22 @@
+# Secrets - never upload
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Node / React UI
+node_modules/
+ui/dist/
+
+# Run output (screenshots, reports, QA verdicts)
+reports/
+
+# Editor / OS files
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
